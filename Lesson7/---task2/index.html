@@ -14,7 +14,7 @@
         li{ 
             margin-bottom: 16px;
         }
-        li + span{
+        .change{
             background-color: red;color: white
         }
         .span{
@@ -23,6 +23,7 @@
         .odd{
             margin-left: 16px;
         }
+
         .paragraph{
             background-color: grey;
         }
@@ -34,12 +35,12 @@
     <h1>Древовидные структуры</h1>
 
     <ul>
-      <li><span >1 - :first-child</span></li>
+      <li><span class="change" >1 - :first-child</span></li>
       <li><span class="odd">2 - :last-child</span></li>
       <li><span>3 - :nth-child()</span></li>
       <li><span class="odd">4 - :nth-last-child()</span></li>
       <li><span >5 - :nth-of-type()</span></li>
-      <li><span class="span" class="odd">6 - :last-of-type()</span></li>
+      <li><span class="span", class="odd">6 - :last-of-type()</span></li>
     </ul>
     <div class="paragraphs">
       <p class="paragraph">Paragraph #1</p>
