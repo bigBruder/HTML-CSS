@@ -15,18 +15,18 @@
         }
         
         .container{
-            display: inline-block;
+            float: left;
         width: 50%;
         }
 
         .green{
             background-color: green;
-        padding: 16px; 
+        float: left;
         }
 
         .red{
             background-color: red;
-        padding: 16px; 
+        float: right;
         }
 
       .square {
@@ -42,12 +42,13 @@
       footer {
         height: 30px;
         border: 2px solid black;
+        clear: both;
       }
     </style>
   </head>
 
   <body>
-    <section class="container1">
+    <section class="container">
       <h2>Big text</h2>
       <div class="red square"></div>
       <div class="green square"></div>
@@ -65,7 +66,7 @@
       </p>
       <footer class="footer"></footer>
     </section>
-    <section class="container2">
+    <section class="container">
       <h2>Small text</h2>
       <div class="red square"></div>
       <div class="green square"></div>
