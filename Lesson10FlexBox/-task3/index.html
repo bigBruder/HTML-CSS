@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+        header{
+            height: 40px;
+           background-color: yellow; 
+           display: flex;
+           align-items: center;
+        }
+
+        .navigation{
+            display: flex;
+            list-style-type: none;
+
+        }
+         
+        .item{
+            margin-right: 16px;
+        }
+
+        footer{
+            height: 40px;
+            background-color: green;
+            display: flex;
+
+        }
+
+        .footer_text{
+            margin: auto;
+        }
+
+
+      .container{
+          display: flex;     
+          flex-direction: column;
+          height: 100vh;
+     }
+     .content{
+         display: flex;
+         flex-grow: 1;
+     }
+     .dashboard{
+         display: flex;
+         flex-grow: 1;
+         background-color: pink;
+         justify-content: center;
+         align-items: center;
+     }
+     .news{
+         width: 200px;
+         background-color: grey;
+     }
+     .article{
+        display: flex;
+          justify-content: center;
+        margin-top: 16px;
+         margin-bottom: 16px;
+           
+     }
+
+     .list{
+
+        list-style-type: none;
+        height: 40px; 
+    
+        
+     }
+     .list_item{
+        margin-top: 16px;
+         flex-direction: column;
+        justify-content: space-around ;
+     }
+   
+   </style>
+  </head>
+
+  <body>
+    <div class="container">
+        <header>
+            <ul class="navigation">
+            <li class="item">About</li>
+            <li class="item">Products</li>
+            <li class="item">Contacts</li>
+        </ul>
+        </header>
+        <main class="content"> 
+            <section class="dashboard">
+                <h2> I can use Flexbox!!!</h2>
+            </section>
+            <aside class="news">
+                <h2 class="article"> News </h2>
+                <ul class="list">
+                    <li class="list_item">News 1</li>
+                    <li class="list_item">News 2</li>
+                    <li class="list_item">News 3</li>
+                </ul>
+            </aside>
+        </main>
+        <footer class="footer"><span class="footer_text">Footer</span> </footer>
+    </div>
+  </body>
+</html>
