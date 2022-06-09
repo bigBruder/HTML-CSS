@@ -11,36 +11,80 @@
     />
     <style>
         .header{
-            height: 50px;
-            background-color: yellow;
+            height: 40px;
+            background-color: darkturquoise;
         }
+
+        ul{
+            height: 40px;
+        }  
 
         .content{
-            height: 500px;
-            background-color: pink;
-            float: left;
-            width: 80%;
+            height: 5000px;
+            background-color:beige;
         }
 
-        .sidebar{
-            height: 500px;
+        .el{
+            padding-left: 16px;
+            color: white;
+            float: left;
+        }
+        .head{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            position: relative;
+            top: 10%;
+            left: 45%;
+        }
+        .ear{
+            width: 60px;
+            height: 40px;
+            background-color: brown;    
+           }
+           .ear1{
+               float: left;
+           }
+           .ear2{
+               float: right;
+           }
+           
+        .eye{
             background-color: grey;
-            float: left;
-            width: 20%;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: absolute;
+            top: 80px;
+            left: 40px;
+            right: 40px;
+
         }
 
-        .footer{
-            height: 50px;
-            background-color: green;
-            clear: both;
-        }
+    .eye1{
+        float: left;
+    }
+
+    .eye2{
+        float: right;
+    }
+
     </style>
   </head>
 
   <body>
-    <header class="header">Header</header>
-    <main class="content">Main</main>
-    <aside class="sidebar">Sidebar</aside>
-    <footer class="footer">Footer</footer>
+    <header class="header">
+        <nav> 
+            <ul>
+   <li class="el"> Home </li>  
+   <li class="el">Products</li> 
+   <li class="el">Contacts</li>
+              </ul>
+            </nav>
+        </header>
+    <main class="content"><div class="head"><div class="eye eye1"></div><div class="eye eye2"></div>
+           <div class="ear ear1"><div class="ear ear2">
+
+    </main>
   </body>
 </html>
