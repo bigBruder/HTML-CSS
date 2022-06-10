@@ -11,23 +11,32 @@
     />
     <link rel="stylesheet" href="styles.css" />
 <style>
+    
+*{
+    box-sizing: border-box;
+}
+
     .dropdown{
+        position: relative;
         margin: 16px;
-        padding: 16px;
+    
     }
 
     .menu-button{
-        padding: 16px;
+        position: absolute;
         background-color: darkgreen;
         font-size: 16px;
         color: white;
         opacity: 0.8;
         cursor: pointer;
+        padding: 16px ;
     }
     .menu-button:hover{
         opacity: 1;
     }
     .menu-list{
+        position: absolute;
+        top: 50px;
         padding: 0px;
         margin: 0px;
         display: none;
