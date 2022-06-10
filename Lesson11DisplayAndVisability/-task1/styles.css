@@ -4,15 +4,15 @@
     background: coral;
   }
   
-  body>.container{
+  .container>div:nth-child(1){
     display: none;
 }
 
-body>.container{
+.container>div:nth-child(2){
     visibility: hidden ;
 }
 
-body>.container{
+.container>div:nth-child(3){
     visibility: visible;
 }
   
