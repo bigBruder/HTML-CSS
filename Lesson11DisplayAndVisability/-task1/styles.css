@@ -4,15 +4,15 @@
     background: coral;
   }
   
-  .container:nth-child(1):nth-child(1){
+  body:nth-child(1){
     display: none;
 }
 
-.container:nth-child(2){
+body:nth-child(2){
     visibility: hidden ;
 }
 
-.container:nth-child(3){
+body:nth-child(3){
     visibility: visible;
 }
   
