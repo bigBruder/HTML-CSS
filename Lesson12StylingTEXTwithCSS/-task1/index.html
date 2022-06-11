@@ -9,41 +9,52 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
     <style>
-        *{box-sizing: border-box;
-        }
-html{
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
+        *{
+  box-sizing: border-box;
 }
+
+html{
+  font-size: 18px;
+}
+
+body{
+  font-family: Roboto, sans-serif ;
+  font-weight: 400;
+}
+
+section{
+  margin: 32px;
+}
+
 h1{
-    word-spacing: 20px;
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  text-align: center;
 }
 
 p{
-    line-height: 28px;
+ line-height: 28px;
 }
-.tech{
-    font-weight: 900; ;
-    font-size: 24px;
-    opacity: 80%;
-    letter-spacing: 3px;
-    text-decoration:underline;
-}
-section{
-    margin: 32px;
-}
- a[target="_blank"][href]{
-     text-decoration: none;
- }
-.translation{
-    color: grey;
 
+.HTML{
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.em{
+  color: gray;
+}
+
+.url{
+  text-decoration: none;
 }
     </style>
   </head>
@@ -52,15 +63,16 @@ section{
     <section>
       <h1>Web technologies</h1>
       <p>
-        <span class="tech">HTML</span> (от англ. <em class="translation">HyperText Markup Language</em> — «язык гипертекстовой разметки») —
+        <b class="HTML">HTML</b> (от англ. <em class="em"> HyperText Markup Language</em> — «язык гипертекстовой разметки») —
         стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц
         содержат описание разметки на языке HTML (или XHTML). Язык
-        <a target="_blank" href="https://ru.wikipedia.org/wiki/HTML">HTML</a> интерпретируется
+        <a target="_blank" href="https://ru.wikipedia.org/wiki/HTML" class="url">HTML</a> интерпретируется
         браузерами; полученный в результате интерпретации форматированный текст отображается на
         экране монитора компьютера или мобильного устройства.
       </p>
       <p>
-        <span class="tech">CSS</span>(/siːɛsɛs/ англ. <em class="translation">Cascading Style Sheets</em> — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. 
+        <b class="HTML">CSS</b> (/siːɛsɛs/ англ. <em class="em">Cascading Style Sheets</em> — каскадные таблицы стилей) — формальный язык
+        описания внешнего вида документа, написанного с использованием языка разметки.
       </p>
     </section>
   </body>
