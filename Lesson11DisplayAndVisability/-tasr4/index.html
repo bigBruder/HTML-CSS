@@ -11,19 +11,23 @@
   />
   <style>
      .text{
+         
          display: inline-block;
          margin: 16px;
       border-bottom: 1px dotted black;
-     } 
+     }
      .tooltip{
-         display: block;
+         position: absolute;
+         display: none;
          background-color: grey;
          color: white;
          border-radius: 4px;
          padding: 8px;
-         margin-bottom: -40px;
-        
-     }
+         margin-bottom: 40px;
+        }
+        .text:hover .tooltip{
+            display: block;
+        }
   </style>
   </head>
 
