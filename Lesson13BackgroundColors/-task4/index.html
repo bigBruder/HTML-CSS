@@ -10,18 +10,23 @@
       crossorigin="anonymous"
     />
     <style>
+        *{
+            box-sizing: border-box;
+        }
         .gallery{
             display: flex;
-            position: relative;
     
         }
         .image{
-            
+        display: flex;
             width: 200px;
             height: 200px;
             margin: 16px;
-            background-size: contain;
+            background-size: contain;            
             background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+        border: 1px dotted grey;
         }
 
     </style>
