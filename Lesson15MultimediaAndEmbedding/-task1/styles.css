@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-div{
+.image-container{
 margin: 50px 0px  50px 0px;
 display: flex;
 justify-content: center;
