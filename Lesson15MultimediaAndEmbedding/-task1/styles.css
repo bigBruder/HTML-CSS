@@ -27,7 +27,7 @@ text-align: center;
 filter: opacity(50%);
 }
 
-.opacity-blur{
+.blur-filter{
 filter: blur(4px);
 }
 
