@@ -23,26 +23,24 @@
             left: 0;
             width: 25px;
             height: 25px;
-            background-color: #d3d3d3
-
-           
+            background-color: #d3d3d3       
     }
-    .checkbox input:checked .checkbox +.checkmark {
-            background-color: #006400;
-    }
-            .checkbox{
+    .checkbox{
                 display: block;
-            position: absolute;
+            position: relative;
             padding-left: 35px;
             font-size: 24px;
             margin: 16px;
         }
+    .checkbox input:checked +.checkmark {
+            background-color: #006400;
+    }
     </style>
   </head>
 
   <body>
     <label class="checkbox"
-      ><input type="checkbox" />
+      ><input type="checkbox" for="custom-checkbox" />
       Checkbox
       <span class="checkmark"></span>
     </label>
