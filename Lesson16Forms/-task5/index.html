@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+.option_form{
+    margin: 32px;
+}
+.form_input{
+    margin: 8px;
+}
+    </style>
+</head>
+<body>
+    <form class="option_form">
+        <div>
+            <input class="form_input"
+            type="text" 
+            name="primaryLanguage" 
+            value="HTML" 
+            disabled>
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+             type="checkbox" 
+            name="agree"
+            unchecked>
+        </div>
+        <div>
+            <input class="form_input"
+            type="checkbox" 
+            name="like"
+            readonly>
+        </div>
+        <div>
+            <input class="form_input"
+            type="color"
+            name="favouriteColor" 
+            value="#ff7f50" 
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="date"
+            name="birthDate" 
+            value="#2021-01-02" 
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="datetime-local"
+            name="birthTime" 
+            value="2024-10-04T13:02" 
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="email"
+            name="email" 
+            placeholder="example@domain.com"
+            required
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="file"
+            name="avatar" 
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="month"
+            name="startLearning" 
+            value="2020-01" 
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="number"
+            name="favouriteNumber" 
+            value="17" 
+            >
+        </input>
+        </div>
+        <div>
+            <textarea class="form_input"
+            name="story" 
+            rows="5"
+            cols="30"
+            placeholder="A long time ago..." 
+            >
+        </textarea>
+        </div>
+        <div>
+            <input class="form_input"
+            type="password"
+            value="secret" 
+            >
+        </input>
+        </div>
+        <div class="language">
+            <input type="radio" name="language" value="html"> 
+        <label>HTML</label>
+            <input type="radio" name="language" value="css">
+        <label>CSS</label>
+            <input type="radio" name="language" value="javascript">
+        <label>JavaScript</label>
+        </div>
+        <div>
+            <range
+            type="learningProgress"
+            value="30" 
+            >
+            </range>
+        </div>
+        <div>
+            <select name="framework">
+            <option value="react">React</option>
+            <option value="jquery" aria-checked="true">jQuery</option>
+            <option value="bootstrap">Bootstrap</option>
+            </select>
+        </div>
+        <div>
+            <input class="form_input"
+            type="search"
+            name="search" 
+            placeholder="Type first letters..."
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="time"
+            name="launchEnd"
+            value="14:01" 
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="url"
+            name="website" 
+            placeholder="https://website.com"
+            required
+            >
+        </input>
+        </div>
+        <div>
+            <input class="form_input"
+            type="week"
+            name="birthWeek"
+            value="2021-W51" 
+            >
+        </input>
+        </div>
+        <div>
+            <button
+            type="submit"
+            >
+            Save
+            </button>
+        </div>
+    </form>
+</body>
+</html>
