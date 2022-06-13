@@ -10,6 +10,15 @@
       crossorigin="anonymous"
     />
     <style>
+       
+    .checkbox{
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            font-size: 24px;
+            margin: 16px;
+        }
+
         input[type="checkbox"]{
         visibility: hidden;
         width: 0;
@@ -24,13 +33,7 @@
             height: 25px;
             background-color: #d3d3d3       
     }
-    .checkbox{
-            display: block;
-            position: relative;
-            padding-left: 25px;
-            font-size: 24px;
-            margin: 16px;
-        }
+
     .checkbox input:checked +.checkmark {
             background-color: #006400;
     }
@@ -39,8 +42,8 @@
 
   <body>
     <label class="checkbox"
-      ><input type="checkbox" for="custom-checkbox" />
-      Checkbox
+      >Checkbox
+      <input type="checkbox" />
       <span class="checkmark"></span>
     </label>
   </body>
