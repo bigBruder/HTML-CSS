@@ -20,10 +20,9 @@
 }
 
 .circle{
-    position: relative;
+    margin: auto;
     width: 50px;
     height: 50px;
-    margin: auto;
     border: solid 4px lightgrey;
     border-top: solid 4px black;
     margin-bottom: 8px;
@@ -31,12 +30,11 @@
     animation: spiner 2s linear;
 }
 
-div.circle {
+div.circle {s
     display: flex;
 
 }
 .spinner-text{
-    position: absolute;
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
