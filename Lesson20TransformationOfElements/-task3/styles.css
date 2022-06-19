@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
 
   .container{
     display: flex;
@@ -23,7 +23,7 @@
     margin-bottom: 8px;
     border-radius: 50%;
     animation: spiner 2s linear;
-    animation: rotator 2s infinite;
+
 }
 
 div.circle {
