@@ -42,6 +42,10 @@ div.circle {
     text-transform: uppercase;
     animation: rotator 2s infinite;
             }
+
+            div.class {
+                display: flex;
+            }
     
             @keyframes rotator {
                0%{
