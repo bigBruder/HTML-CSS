@@ -20,6 +20,7 @@
 }
 
 .circle{
+    position: relative;
     width: 50px;
     height: 50px;
     margin: auto;
@@ -35,6 +36,7 @@ div.circle {
 
 }
 .spinner-text{
+    position: absolute;
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
