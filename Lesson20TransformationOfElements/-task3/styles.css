@@ -2,13 +2,6 @@
     box-sizing: border-box;
   }
   
-  p {
-    margin: 0 32px;
-    padding: 8px;
-    background-color: antiquewhite;
-    display: inline-block;
-    border-radius: 4px;
-  }
 
   .container{
     display: flex;
@@ -23,14 +16,17 @@
     margin: auto;
     width: 50px;
     height: 50px;
-    border: solid 4px lightgrey;
+    border-left: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  border-bottom: 4px solid lightgray;
     border-top: solid 4px black;
     margin-bottom: 8px;
     border-radius: 50%;
     animation: spiner 2s linear;
+    animation: rotator 2s infinite;
 }
 
-div.circle {s
+div.circle {
     display: flex;
 
 }
