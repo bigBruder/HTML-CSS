@@ -22,7 +22,7 @@
   }
     .nav-list{
         padding: 0;
-        list-style-type: none;
+        list-style: none;
        }
        .nav-list-item{
         background-color: #808080;
@@ -40,7 +40,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
        }
-       
+
   .navigation,
   .section,
   .news {
