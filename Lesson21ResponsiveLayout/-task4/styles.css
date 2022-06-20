@@ -2,15 +2,17 @@
     box-sizing:border-box ;
    } 
 
-   html{
+   html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #555;
     font-size: 16px;
+    height: 100%;
+    margin: 0;
    }
 
    .main{
     display: flex; 
-    height: 100vh;
+    min-height: 100vh;
    }
 
    .header{
@@ -25,6 +27,7 @@
     background-color: #e5e5e5;
     padding: 0.5em;
     justify-content: center;
+    
    }
 
    .navigation{
@@ -34,9 +37,8 @@
 
    .section{
     width: 60%;
-    padding: 0.5em;
+
     font-size: 1.25em;
-    line-height: 1.75em;
    }
 
    .news{
@@ -49,9 +51,11 @@
     background-color: #e5e5e5;
     font-size: 1.125em;
     font-weight: 700;
+    padding: 0;
    }
 
    .section__header{
+    padding: 0.5em;
     font-size: 5vw;
     text-align: center;
    }
@@ -77,4 +81,8 @@ color: white;
 overflow: hidden;
 white-space: nowrap;
 text-overflow: ellipsis;
+   }
+
+   .units-list{
+    line-height: 1.75em;
    }
