@@ -6,8 +6,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #555;
     font-size: 16px;
-    height: 100%;
-    margin: 0;
+    height: 100vh;
    }
 
    .main{
@@ -27,7 +26,7 @@
     background-color: #e5e5e5;
     padding: 0.5em;
     justify-content: center;
-    
+
    }
 
    .navigation{
@@ -37,7 +36,7 @@
 
    .section{
     width: 60%;
-
+    padding: 0.5em;
     font-size: 1.25em;
    }
 
@@ -55,9 +54,10 @@
    }
 
    .section__header{
-    padding: 0.5em;
     font-size: 5vw;
     text-align: center;
+    padding: 0.5em;
+
    }
 
    .nav-list{
