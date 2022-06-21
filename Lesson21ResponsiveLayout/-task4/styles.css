@@ -28,14 +28,14 @@
     background-color: #808080;
     line-height: 2em;
     margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   li.nav-list-item {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     color: white;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
   }
   .nav-list-link {
     color: white;
