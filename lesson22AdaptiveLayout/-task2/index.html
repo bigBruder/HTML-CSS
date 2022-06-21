@@ -2,10 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .navigation {
+        background-color: #ff7f50;
+        height: 200px;
+        display: flex;
+        flex-grow: 1;
+      }
+      .productsList {
+        background-color: #006400;
+        height: 200px;
+        display: flex;
+        flex-grow: 1;
+      }
+      .news {
+        background-color: #0ff;
+        height: 200px;
+        display: flex;
+        flex-grow: 1;
+      }
+
+      span {
+        text-transform: lowercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #faebd7;
+        border-radius: 4px;
+        padding: 8px;
+        margin: auto;
+      }
+
+      @media screen and (min-width: 600px) {
+        .products {
+          display: flex;
+          flex-grow: 2;
+        }
+      }
+
+      @media screen and (min-width: 900px) {
+        .content {
+          display: flex;
+        }
+      }
+    </style>
   </head>
 
-  <body></body>
+  <body>
+    <main class="content">
+      <section class="products">
+        <div class="navigation"><span> Navigation</span></div>
+        <div class="productsList"><span> ProductsList</span></div>
+      </section>
+      <div class="news"><span> News</span></div>
+    </main>
+  </body>
 </html>
