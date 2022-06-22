@@ -8,6 +8,10 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  @include for-portrait-orientation {
+    flex-direction: column;
+  }
 }
 .square {
   width: 100px;
